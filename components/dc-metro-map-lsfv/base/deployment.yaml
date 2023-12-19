@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: dc-metro-map-lsfv
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/redhat-appstudio-qe/happy-depl-ubxg-tenant/appstudio/dc-metro-map-lsfv@sha256:d48334b9bd02bf73d02bbb361cf451f506a629edbd1479c4d7f8559b00f73096
         name: my-nodejs
         ports:
         - containerPort: 3001
